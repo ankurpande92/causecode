@@ -1,0 +1,28 @@
+- Import REST_API project in eclipse as existing maven project
+- Right click on project-> run-> maven build
+- After successfully build is run just do again right click on project -> run-> run on server
+- Make sure you have tomcat server 7 in install on your system and configure it to your project.
+- Once server is started successfully, 
+
+You can test the services in postman Google plug-in:)
+
+URLs:
+
+Find a store within a X miles of given USA zipcode.
+
+1. http://localhost:8080/CauseCode-Assignment/rest/store/createStore ----> POST Method
+2. http://localhost:8080/CauseCode-Assignment/rest/store/findStore/{zipcode_id} ----> POST Method
+3. http://localhost:8080/CauseCode-Assignment/rest/store/deleteStore/{storeId} ----> DELETE Method
+4. http://localhost:8080/CauseCode-Assignment/rest/store/updateStore/{storeId} ----> PUT Method  
+
+There are some more services i have exposed which creates/update/delete zipcode of new location.
+
+1. http://localhost:8080/CauseCode-Assignment/rest/zipcode/createZipcode ----> POST Method
+2. http://localhost:8080/CauseCode-Assignment/rest/zipcode/getZipcode      ----> GET Method
+3. http://localhost:8080/CauseCode-Assignment/rest/zipcode/deleteZipcode/{storeId} ----> DELETE Method
+4. http://localhost:8080/CauseCode-Assignment/rest/zipcode/updateZipcode/{storeId} ----> PUT Method  
+
+We can find the request input in test result documentation and sample data which I provided with source code.
+
+
+Happy Experience:)
